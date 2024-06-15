@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layout/mainLayout}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutri-Well 회원가입</title>
+    <link rel="stylesheet" th:href="@{/css/signupstyle.css}">
+
+</head>
+<body>
+<div class="container">
+    <div class="left-panel">
+        <div class="logo">Nutri-
+            <br/>Well</div>
+        <div class="image">
+            <img src="">
+        </div>
+    </div>
+    <div class="right-panel">
+        <h2>Create Account</h2>
+        <div class="social-signup">
+            <div class="google">
+            <button class="google-signup">
+                <img src="" alt="Google" class="icon">
+                Signup with Google
+            </button>
+            </div>
+            <div class="kakao">
+            <button class="kakao-signup">
+                <img src="" alt="Kakao" class="icon">
+                Signup with Kakao
+            </button>
+            </div>
+            <div class="apple">
+            <button class="apple-signup">
+                <img src="" alt="Apple" class="icon">
+                Signup with Apple
+            </button>
+            </div>
+        </div>
+        <div class="divider">OR</div>
+        <form th:action="@{/member/signup}" method="post" th:object="${member}">
+            <input type="text" th:field="*{id}" placeholder="id">
+            <input type="text" th:field="*{username}" placeholder="username">
+            <input type="email" th:field="*{email}" placeholder="email">
+            <input type="password" th:field="*{password}" placeholder="password">
+            <input type="text" th:field="*{birth}" placeholder="birth yyyyMMdd">
+            <input type="text" th:field="*{gender}" placeholder="gender">
+            <input type="text" th:field="*{weight}" placeholder="weight">
+            <input type="text" th:field="*{height}" placeholder="height">
+            <input type="tel" th:field="*{tel}" placeholder="tel">
+            <input type="text" th:field="*{basel_metabolism}" placeholder="basel_metabolism">
+            <input type="text" th:field="*{picture}" placeholder="picture">
+            <button type="submit">회원가입</button>
+
+        </form>
+
+    </div>
+</div>
+</body>
+</html>
