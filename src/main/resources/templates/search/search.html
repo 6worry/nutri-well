@@ -99,13 +99,15 @@
                                                 <div class="inputRange mb-2">
                                                     <input class="inputRangeValue" id="leftValue" min="0" max="500" value="0">
                                                     <input class="inputRangeValue" id="rightValue" min="0" max="500" value="0">
+                                                    <button id="setRange" class="btn btn-primary" style="background-color: #f6d5d4; border-color: #000">범위설정</button>
                                                 </div>
                                                 <div class="mb-3">
-                                                    <button id="setRange"  class="btn btn-primary">범위설정</button>
-                                                    <button id="detailSearch"  class="btn btn-primary">상세검색</button>
+                                                    <button id="detailSearch" class="btn btn-primary"><i class="bi bi-search"></i> 상세검색</button>
                                                 </div>
                                                 <div class="mb-3">
-                                                    <a th:href="@{/food-approve/request}" class="btn btn-primary">식품 추가</a>
+                                                    <a th:href="@{/food-approve/request}" class="btn btn-primary" style="background-color: #fec24e; border-color: #000">
+                                                        <i class="fas fa-plus-circle"></i> 식품 추가
+                                                    </a>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12">

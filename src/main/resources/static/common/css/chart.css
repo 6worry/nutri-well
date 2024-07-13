@@ -109,6 +109,11 @@
 }
 .submit button {
     border-radius: 5px;
+}
+#initChart{
+    background-color: #f6d5d4;
+}
+#saveCalendarBtn{
     background-color: yellowgreen;
 }
 .input-wrapper {
@@ -116,7 +121,6 @@
     align-items: center;
     margin-left: 7px;
 }
-
 .input-wrapper input.amount {
     margin-right: 1px; /* input과 단위 사이의 간격 조절 */
 }

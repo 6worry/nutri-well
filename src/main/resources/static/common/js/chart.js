@@ -128,7 +128,7 @@
     }
     //클릭 이벤트
     window.addChart = function(foodId) {
-        const baseUrl = 'http://localhost:9079';
+        const baseUrl = 'http://nutri-well.site';
         let data = {
             "foodId": foodId,
             "userId": userId,
@@ -229,7 +229,7 @@
         if(userId === null){
             return;
         }
-        const baseUrl = 'http://localhost:9079';
+        const baseUrl = 'http://nutri-well.site';
 
         $.ajax({
             url: baseUrl + '/chart/getBookMark',
@@ -253,7 +253,7 @@
     }
     //Chart 음식 목록 DB삭제
     function deleteTable(){
-        const baseUrl = 'http://localhost:9079';
+        const baseUrl = 'http://nutri-well.site';
         $.ajax({
             url: baseUrl + '/chart/delete',
             type: 'POST',
@@ -307,7 +307,7 @@
             "foodIds": foodIds,
             "kcalPercentage": kcalPercentage
         };
-        const baseUrl = 'http://localhost:9079';
+        const baseUrl = 'http://nutri-well.site';
         $.ajax({
             url:  baseUrl + "/chart/saveCalendar",
             type: "POST",

@@ -33,7 +33,7 @@ function basel() {
         bmr = 447.593 + (9.247 * weight) + (3.098 * height) - (4.330 * age);
     }
 
-    document.getElementById("basel_Metabolism").value = bmr.toFixed(0);
+    document.getElementById("basel_Metabolism").value = Number(bmr.toFixed(0)).toLocaleString();
 }
 
 document.addEventListener('DOMContentLoaded', (event) => {
