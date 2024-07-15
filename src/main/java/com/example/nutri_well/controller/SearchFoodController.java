@@ -35,7 +35,7 @@ public final class SearchFoodController {
         List<CategoryResponseDTO> categories = categoryService.findByParentCategoryIsNull();
         int totalpage = foodService.getTotalPages();
 
-        ModelAndView mav = new ModelAndView("/search/search");
+        ModelAndView mav = new ModelAndView("search/search");
         mav.addObject("query", query);
         mav.addObject("totalPage", totalpage);
         mav.addObject("foodlist", foodlist);
@@ -55,7 +55,7 @@ public final class SearchFoodController {
         List<CategoryResponseDTO> categories = categoryService.findByParentCategoryIsNull();
         int totalpage = foodService.getTotalPages();
 
-        ModelAndView mav = new ModelAndView("/search/search");
+        ModelAndView mav = new ModelAndView("search/search");
         mav.addObject("category", category);
         mav.addObject("totalPage", totalpage);
         mav.addObject("foodlist", foodlist);

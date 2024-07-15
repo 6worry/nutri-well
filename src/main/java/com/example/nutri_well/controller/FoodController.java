@@ -24,7 +24,7 @@ public class FoodController {
     //식품 상세 페이지 view
     @GetMapping("/detail")
     public ModelAndView showPage(@RequestParam Long foodId){
-        ModelAndView mav = new ModelAndView("/food/food_detail");
+        ModelAndView mav = new ModelAndView("food/food_detail");
         FoodResponseDTO dto = foodService.findById(foodId);
         mav.addObject("categories", categoryService.findByParentCategoryIsNull());
         mav.addObject("food", dto);
