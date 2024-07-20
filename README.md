@@ -82,7 +82,7 @@
 <br><br>
 
 ## 📋 서비스 아키텍처
-![image](https://github.com/Weiver-project/Weiver/assets/76997735/6e881153-f943-4c2f-a562-c80dda027428)
+![image](https://github.com/user-attachments/assets/f19887e4-2f71-4af3-b897-8e3ed4b840ab)
 
 <br><br>
 
@@ -205,4 +205,6 @@
 
 
 
-[//]: # (## 🎉 수상내역)
+## 🎉 수상내역
+![image](https://github.com/user-attachments/assets/25387746-7a69-4730-8952-2465617aa80d)
+![image](https://github.com/user-attachments/assets/bcb4d51f-09c9-4ca8-adaa-ef11b7558dc0)
