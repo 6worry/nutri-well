@@ -208,3 +208,4 @@
 ## 🎉 수상내역
 ![image](https://github.com/user-attachments/assets/25387746-7a69-4730-8952-2465617aa80d)
 ![image](https://github.com/user-attachments/assets/bcb4d51f-09c9-4ca8-adaa-ef11b7558dc0)
+![image](https://github.com/user-attachments/assets/8a042c4a-5f56-450b-803b-7ca7ccd269e0)
